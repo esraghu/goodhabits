@@ -9,7 +9,7 @@ function MyButton() {
   );
 }
 
-function tracker() {
+function Tracker() {
   return (
     <table>
       <thead>
@@ -37,9 +37,8 @@ function App() {
         <h1>
           Habit Tracker
         </h1>
-        <div className="tracker">
-          <tracker />
-        </div>
+        <Tracker />
+        <MyButton />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
